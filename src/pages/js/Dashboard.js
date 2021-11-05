@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion, Container, Nav, Navbar } from 'react-bootstrap';
 import style from '../css/Dashboard.module.css'
-import { NavLink } from 'react-router-dom';
 export default class Dashboard extends Component {
   render() {
     return (
@@ -22,10 +21,10 @@ export default class Dashboard extends Component {
       </Nav>
     </Navbar.Collapse>
   </Container>
-</Navbar><Router>
+</Navbar>
 <div className={style.asosiy}>
+ 
 <div className={style.rahbar}>
-
 
 
   <div className={style.oyna}>
@@ -53,7 +52,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <NavLink to="/bir">Batafsil</NavLink>
+      
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
@@ -66,7 +65,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <NavLink to="/bir">Batafsil</NavLink>
+      
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="4">
@@ -79,7 +78,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <NavLink to="/bir">Batafsil</NavLink>
+      
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="5">
@@ -92,14 +91,14 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <NavLink to="/bir">Batafsil</NavLink>
+      
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>
 
 </div>
 </div>
-</Router>
+
 
 
 
