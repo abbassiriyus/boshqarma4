@@ -1,0 +1,57 @@
+body{
+    background-color: #DED9C4;
+    }
+    .navbar{
+        background-color: #89B5AF;
+    }
+    
+    .imglogo{
+    width: 100px;
+    height: 100px;
+    }
+    
+    #Nav{
+        
+        margin: auto;
+      text-align: right;
+     
+    }
+    .sahifa{
+        font-size: 25px;
+     
+    width:165px;
+    }
+    @media(max-width:1440px){
+        #Nav{
+        
+            margin: auto;
+          text-align: right;
+         
+        }
+        .sahifa{
+            font-size: 20px;
+         
+        width:130px;
+        }  
+        .imglogo{
+            width: 80px;
+            height: 80px;
+        }  
+    }
+    @media(max-width:991px){
+        #Nav{
+        
+            margin: auto;
+          text-align: center;
+         
+        }  
+        .sahifa{
+            font-size: 20px;
+         
+        width:100%;
+        } 
+        .imglogo{
+            width: 60px;
+            height: 60px;
+            } 
+    }
