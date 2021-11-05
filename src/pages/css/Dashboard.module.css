@@ -10,6 +10,7 @@ background-color: #DED9C4;
     top:0px;
     right: 0px;
     width: 100%;
+    z-index: 132;
 }
 
 .navbar .imglogo{
@@ -69,8 +70,9 @@ width:165px;
 
 .asosiy{
     width: 100%;
-    height: 90vh;
-    border: 1px solid red;
+    height: 800px;
+    overflow-y: hidden;
+  
     margin-top: 130px;
     display: flex;
 }
@@ -79,13 +81,9 @@ width:165px;
     justify-content: center;
     align-items: center;
 width: 70%;
-border: 1px solid red;
+
 }
-.yangilik{
-    padding: 20px;
-    border: 1px solid red;
-width: 30%;
-}
+
 .oyna{
     width: 100%;
     height: 90%;
@@ -96,7 +94,7 @@ width: 30%;
 }
 .oyna img{
     margin: auto;
-   border: 1px solid red;
+ 
     width:60%;
     display: flex;
     align-items: center;
@@ -104,16 +102,28 @@ width: 30%;
 }
 .oyna h3{
     margin: auto;
-    font-size: 18px;
+    font-size: 23px;
+    text-align: center;
+    margin:20px;
+    margin-top: 0px;
    }
    .oyna h1{
        margin: auto;
-       font-size: 23px;
+       font-size: 30px;
+       text-align: center;
+       margin:20px;
       }
 @media (max-width:1440px){
+    .asosiy{
+        width: 100%;
+        height: auto;
+      
+        margin-top: 110px;
+        display: flex;
+    }
     .oyna img{
         margin: auto;
-       border: 1px solid red;
+     
         width:80%;
         display: flex;
         align-items: center;
@@ -128,12 +138,90 @@ width: 30%;
 }
 
 @media (max-width:991px){
+  
+ 
+    .asosiy{
+        width: 100%;
+        height: 1400px;
+      
+        margin-top: 90px;
+        display: block;
+    } 
+     .rahbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 100%;
+    height: auto;
+  
+    }
+  
     .oyna img{
         margin: auto;
-       border: 1px solid red;
+     
         width:100%;
         display: flex;
         align-items: center;
         justify-content: center;
-    }   
+    }
+    .oyna h3{
+        font-size: 15px;
+       }
+       .oyna h1{
+           font-size: 20px;
+          }   
+}
+@media (max-width:600px){
+    .rahbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 100%;
+    height: auto;
+  
+    } 
+}
+
+
+/* Accordion qismi */
+.yangili{
+   margin-bottom: 10px; 
+    background-color:#96C7C1;
+    width: 30%;
+}
+.yangilik{
+    height: 750px;
+    overflow-y:scroll;
+}  
+
+.yangilik h1{
+    margin:auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+.accordionbody{
+background-color: #96C7C1;
+
+}
+@media (max-width:1440px){
+    .yangilik{
+        overflow-y:scroll;
+        height: 650px;
+    }  
+
+}
+
+@media (max-width:991px){
+  .yangili{
+      width: 100%;
+height: 550px;
+ background-color:#96C7C1;
+  }
+  .yangilik{
+    overflow-y:scroll;
+    height: 500px;
+}  
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Accordion, Container, Nav, Navbar } from 'react-bootstrap';
 import style from '../css/Dashboard.module.css'
+import { NavLink } from 'react-router-dom';
 export default class Dashboard extends Component {
   render() {
     return (
@@ -21,9 +22,12 @@ export default class Dashboard extends Component {
       </Nav>
     </Navbar.Collapse>
   </Container>
-</Navbar>
+</Navbar><Router>
 <div className={style.asosiy}>
 <div className={style.rahbar}>
+
+
+
   <div className={style.oyna}>
 <img src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"  />
 <h1>Inson haddan tashqari ko‘p </h1>
@@ -31,13 +35,71 @@ export default class Dashboard extends Component {
 
   </div>
 
-</div>
-<div className={style.yangilik}> yangilik accardion
+
+
+
+
+</div><div className={style.yangili}>
+<div style={{paddingBottom:'10px'}} className={style.yangilik}>
+  <h1>Yangiliklar</h1>
+   <Accordion style={{marginLeft:'10px', }} defaultActiveKey="0">
+  <Accordion.Item  >
+    <Accordion.Header className={style.accordionheader}>Accordion Item #1</Accordion.Header>
+    <Accordion.Body className={style.accordionbody}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+      <NavLink to="/bir">Batafsil</NavLink>
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="2">
+    <Accordion.Header className={style.accordionheader}>Accordion Item #2</Accordion.Header>
+    <Accordion.Body className={style.accordionbody}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+      <NavLink to="/bir">Batafsil</NavLink>
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="4">
+    <Accordion.Header className={style.accordionheader}>Accordion Item #2</Accordion.Header>
+    <Accordion.Body className={style.accordionbody}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+      <NavLink to="/bir">Batafsil</NavLink>
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="5">
+    <Accordion.Header className={style.accordionheader}>Accordion Item #2</Accordion.Header>
+    <Accordion.Body className={style.accordionbody}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+      <NavLink to="/bir">Batafsil</NavLink>
+    </Accordion.Body>
+  </Accordion.Item>
+</Accordion>
 
 </div>
-
-
-
+</div>
+</Router>
 
 
 
