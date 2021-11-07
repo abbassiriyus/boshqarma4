@@ -21,7 +21,7 @@ export default class Tumanlar extends Component {
 <center><h1>TUMANLAR</h1></center>
 <Container>
     <Row>
-        <Col>
+        <Col md={6} lg={4}>
 <Card className="text-dark" id={style.ret}>
   <Card.Img src="https://th.bing.com/th/id/OIP.bqp9ABaJcxsDk5Q2cxf_XwHaE0?pid=ImgDet&w=889&h=578&rs=1" alt="Card image" />
   <Card.ImgOverlay>
@@ -36,7 +36,7 @@ export default class Tumanlar extends Component {
   </Card.ImgOverlay>
 </Card>
 </Col>
-<Col>
+<Col md={6} lg={4}>
 <Card className=" text-dark" id={style.ret}>
   <Card.Img src="https://th.bing.com/th/id/OIP.bqp9ABaJcxsDk5Q2cxf_XwHaE0?pid=ImgDet&w=889&h=578&rs=1" alt="Card image" />
   <Card.ImgOverlay>
@@ -51,7 +51,7 @@ export default class Tumanlar extends Component {
   </Card.ImgOverlay>
 </Card>
 </Col>
-<Col>
+<Col md={6} lg={4}>
 <Card className="text-dark" id={style.ret}>
   <Card.Img src="https://th.bing.com/th/id/OIP.bqp9ABaJcxsDk5Q2cxf_XwHaE0?pid=ImgDet&w=889&h=578&rs=1" alt="Card image" />
   <Card.ImgOverlay>
