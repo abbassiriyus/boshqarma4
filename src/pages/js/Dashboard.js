@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion, Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import style from '../css/Dashboard.module.css';
+import Footer from './Footer';
 
 
 export default class Dashboard extends Component {
@@ -168,6 +169,46 @@ src="https://www.youtube.com/embed/Hz13r28Kc">
 
 
 
+
+{/* Homiylarimiz */}
+<div class={style.slider}>
+  <h1 style={{margin:'auto',textAlign:'center',margin:'20px'}}>Homiylarimiz</h1>
+	<div class={style.slidetrack}>
+    
+  <div className={style.slide}>
+			<img  height="100" width="100" alt=" " />
+		</div>
+   
+	
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div className={style.slide}>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+	
+		
+	</div>
+</div>
+<Footer/>
       </div>
     )
   }
