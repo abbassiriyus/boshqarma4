@@ -265,6 +265,13 @@ color: red;
 font-family: Palatino;
 
 }
+@media(max-width:991px){
+    .cardvideo h3{
+   
+        font-family: Palatino;
+        font-size: 15px;
+        }
+}
 
 
 /* Homiylar */

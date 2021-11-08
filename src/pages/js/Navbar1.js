@@ -9,7 +9,7 @@ export default class Navbar1 extends Component {
       <div>
       <Navbar className={style.navbar} expand="lg"> 
   <Container>
-    <Navbar.Brand href="#home"><img className={style.imglogo} src="https://www.clipartmax.com/png/full/203-2035601_uzbekistans-emblem-uzbekistan-gerb-png.png"/> </Navbar.Brand>
+    <Navbar.Brand href="#home"><img className={style.imglogo} alt=" " src="https://www.clipartmax.com/png/full/203-2035601_uzbekistans-emblem-uzbekistan-gerb-png.png"/> </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto" id={style.Nav} >

@@ -23,23 +23,11 @@ export default class Footer extends Component {
                                 <li><a href="#home"><i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
                                 <li><a href="#home"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
                                 <li><a href="#home"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-                            </ul>0
+                            </ul>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="kilimanjaro_part">
-                            <h5>Teglar vidjeti</h5>
-                            <ul class=" kilimanjaro_widget">
-                                <li><a href="#home">Klassik</a></li>
-                                <li><a href="#home">Blog</a></li>
-                                <li><a href="#home">Ijodiy</a></li>
-                                <li><a href="#home">Bir sahifa</a></li>
-                                <li><a href="#home">Ko'p maqsadli</a></li>
-                                <li><a href="#home">Minimal</a></li>
-                                <li><a href="#home">Klassic</a></li>
-                                <li><a href="#home">Tibbiyot</a></li>
-                            </ul>
-                        </div>
+                     
 
                         <div class="kilimanjaro_part m-top-15">
                             <h5>Muhim havolalar</h5>
@@ -55,7 +43,7 @@ export default class Footer extends Component {
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="kilimanjaro_part">
-                            <h5>So'ngi yangiliklar</h5>
+                            <h5>Maktablar</h5>
                             <div class="kilimanjaro_blog_area">
                                 <div class="kilimanjaro_thumb">
 								<img class="img-fluid" src="https://3.bp.blogspot.com/--C1wpaf_S4M/W7V__10nRoI/AAAAAAAAK24/1NSfapuYSIY0f0wzXY9NgoH0FjQLT07YACKgBGAs/s1600/maxresdefault.jpg" alt=" "/>
@@ -95,17 +83,7 @@ export default class Footer extends Component {
                                 <p>support@email.com <br/> company@email.com</p>
                             </div>
                         </div>
-                        <div class="kilimanjaro_part">
-                            <h5>Eng so'nggi ishlar</h5>
-                            <div class="kilimanjaro_works">
-                                <a class="kilimanjaro_works_img" href="img/gallery/1.jpg"><img src="img/gallery/1.jpg" alt=" "/></a>
-                                <a class="kilimanjaro_works_img" href="img/gallery/4.jpg"><img src="img/gallery/4.jpg" alt=" "/></a>
-                                <a class="kilimanjaro_works_img" href="img/gallery/5.jpg"><img src="img/gallery/5.jpg" alt=" "/></a>
-                                <a class="kilimanjaro_works_img" href="img/gallery/7.jpg"><img src="img/gallery/7.jpg" alt=" "/></a>
-                                <a class="kilimanjaro_works_img" href="img/gallery/10.jpg"><img src="img/gallery/10.jpg" alt=" "/></a>
-                                <a class="kilimanjaro_works_img" href="img/gallery/11.jpg"><img src="img/gallery/11.jpg" alt=" "/></a>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
