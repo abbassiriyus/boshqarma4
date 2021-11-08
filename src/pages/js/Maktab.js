@@ -7,7 +7,7 @@ export default function Maktab() {
         <div>
         <Navbar />
 
-        <div class="container-fluid">
+        <div class="container-fluid" style={{marginBottom: '50px'}}>
        <div className={style.title}>
           <h1>Jizzah xalq ta'lim vazirligiga qarashlar maktablar</h1>
           <span>paragraph</span>
