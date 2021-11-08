@@ -211,7 +211,7 @@ src="https://www.youtube.com/embed/Hz13r28Kc">
 
 {/* Homiylarimiz */}
 <div class={style.slider}>
-  <h1 style={{margin:'auto',textAlign:'center',margin:'20px'}}>Homiylarimiz</h1>
+  <h1 style={{margin:'auto',textAlign:'center',marginTop:'20px',marginBottom:'20px'}}>Homiylarimiz</h1>
 	<div class={style.slidetrack}>
     
   <div className={style.slide}>

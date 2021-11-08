@@ -99,7 +99,7 @@ export default class Boglanish extends Component {
                                             <span class="fa fa-globe"></span>
                                         </div>
                                         <div class="text">
-                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                        <p><span>Website</span> <a href="#home">yoursite.com</a></p>
                                     </div>
                                 </div>
 							</div>
