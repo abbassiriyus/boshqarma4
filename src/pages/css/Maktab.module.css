@@ -35,3 +35,9 @@ address{
   color: #fff;
   text-decoration: none;
 }
+
+.title {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: -14px;
+}
