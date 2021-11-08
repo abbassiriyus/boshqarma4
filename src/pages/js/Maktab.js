@@ -9,7 +9,7 @@ export default function Maktab() {
 
         <div class="container-fluid">
        <div className={style.title}>
-          <h1>Title</h1>
+          <h1>Jizzah xalq ta'lim vazirligiga qarashlar maktablar</h1>
           <span>paragraph</span>
        </div>
   <div class="row">
