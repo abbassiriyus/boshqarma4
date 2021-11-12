@@ -8,7 +8,8 @@ export default class Rahbariyat extends Component {
         return (
             <div>
                 <Navbar />
-
+{/* Messageni bosganda modal ochiib ochilgan moldall ichida form bolsin boglanishnikiga oxshagan emailni kirgizsin tel raqamini kirirtsin va murojat textini yuborsin tagida bitta yuborish knopka bolsa boldi  */}
+   {/* follow emas obuna telegramm kanaliga otadigan qilib qoyish kerak */}
     <div class="container">
         <div className={style.main_body}>
             <div className={style.gutters_sm} class="row">
