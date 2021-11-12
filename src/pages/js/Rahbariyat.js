@@ -22,7 +22,7 @@ export default class Rahbariyat extends Component {
                         <h4>John Doe</h4>
                         <p class="text-secondary mb-1">Full Stack Developer</p>
                         <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                        <button class="btn btn-primary" style={{marginRight:'5px'}}>Obuna</button>
+                        <a href="https://t.me/lmellll" class="btn btn-primary" style={{marginRight:'5px'}}>Obuna</a>
                         <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-primary" style={{marginLeft:'5px'}}>Xabar</button>
            
 {/* <!-- Modal --> */}
