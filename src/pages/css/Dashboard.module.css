@@ -83,6 +83,9 @@ width:165px;
 width: 70%;
 
 }
+.rahbar1{
+    display: none;
+}
 
 .oyna{
     width: 100%;
@@ -138,7 +141,12 @@ width: 70%;
 
 @media (max-width:991px){
   
- 
+ .rahbar1{
+display: block;
+ }
+ .rahbar2{
+    display: none;
+     }
     .asosiy{
         width: 100%;
      

@@ -58,11 +58,18 @@ export default class Dashboard extends Component {
         <Link to="/toke2">Expenses</Link>
 <div id="home" className={style.asosiy}>
  
+
+
 <div className={style.rahbar}>
 
- 
+
    
-               <div className={style.oyna}> <Routes>  <Route path="/" element={<div>
+               <div className={style.oyna}>
+                 <div className={style.rahbar1}>
+<img alt=" " src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"  />
+<h1>Inson haddan tashqari ko‘p </h1>
+<h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>
+  <div className={style.rahbar2}><Routes>  <Route path="/" element={<div>
 <img alt=" " src="https://telegra.ph/file/37c9140e82eba1db37cb4.jpg"  />
 <h1>Inson haddan tashqari ko‘p </h1>
 <h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>
@@ -73,9 +80,9 @@ export default class Dashboard extends Component {
 <h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>} />
         <Route path="toke2" element={<div>
 <img alt=" " src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"  />
-<h1>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi  </h1>
+<h1>Jizzax xalq hokimiyati   </h1>
 <h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>} />  
-    </Routes> 
+    </Routes> </div>
   </div>
      
         
@@ -83,7 +90,11 @@ export default class Dashboard extends Component {
         
  
  
-</div><div className={style.yangili}>
+</div>
+
+
+
+<div className={style.yangili}>
 <div style={{paddingBottom:'10px'}} className={style.yangilik}>
   <h1>Yangiliklar</h1>
    <Accordion style={{marginLeft:'10px', }} defaultActiveKey="0">
@@ -97,7 +108,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-        <Link to="/toke1">Batafsil</Link>
+        <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item  >
@@ -110,7 +121,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke1">Batafsil</Link>
+      <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item  >
@@ -123,7 +134,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke1">Batafsil</Link>
+      <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item  >
@@ -136,7 +147,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke1">Batafsil</Link>
+      <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
@@ -149,7 +160,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke2">Batafsil</Link>
+      <Link style={{color:'blue'}} to="/toke2">Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="4">
@@ -162,7 +173,7 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke2">Batafsil</Link>
+      <Link style={{color:'blue'}} to="/toke2">Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="5">
@@ -175,13 +186,31 @@ export default class Dashboard extends Component {
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-      <Link to="/toke2">Batafsil</Link>
+      <Link style={{color:'blue'}} to="/toke2">Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>
 
 </div>
 </div>
+
+
+
+<div className={style.rahbar1}>
+<div className={style.oyna} style={{margin:'0px'}} >
+  <div ><Routes> 
+  <Route path="toke1" element={<div>
+<img alt=" " src="https://www.uzedu.uz/uploads/2020/03/img2567-760x500.jpg"  />
+<h1>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi </h1>
+<h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>} />
+        <Route path="toke2" element={<div>
+<img alt=" " src="https://baxtiyor.uz/wp-content/uploads/2020/09/itsga-rahbar-tayinlandi.jpg"  />
+<h1>Jizzax xalq hokimiyati   </h1>
+<h3>gapirsa, bu uning o‘ziga ishonmasligidan dalolat berishi ham mumkin. Yaxshi rahbar o‘z xodimining fikrini bayon qilishiga imkon beradi, chunki u uchun xodimlarining fikrlari haqiqatda qiziq. Rahbar ularni o‘ylashga undaydigan va ishning mohiyatini chuqurroq anglab yetishga yordam beradigan qiziq savollar beradi. Bu qanday tuzilgan? Sizga uning nimasi yoqdi? Bundan qanday saboq oldingiz? Bu ishni yanada yaxshi bajarishingiz uchun nima kerak bo‘ladi?</h3></div>} />  
+    </Routes> </div>
+  </div></div>
+
+
 </div>
  </Router>
 {/* videolavhalar */}
