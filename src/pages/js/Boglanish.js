@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Boglanish.module.css';
 import Navbar from './Navbar1';
-import './css/bootstrap/bootstrap.css';
-import './css/bootstrap/mixins/_table-row.css';
-import './css/bootstrap.min.css';
-import './css/bootstrap.min.css.map';
 
 export default class Boglanish extends Component {
     render() {

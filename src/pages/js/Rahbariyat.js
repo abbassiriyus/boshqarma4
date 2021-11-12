@@ -8,11 +8,8 @@ export default class Rahbariyat extends Component {
         return (
             <div>
                 <Navbar />
-{/* Messageni bosganda modal ochiib ochilgan moldall ichida form bolsin boglanishnikiga oxshagan emailni kirgizsin tel raqamini kirirtsin va murojat textini yuborsin tagida bitta yuborish knopka bolsa boldi  */}
-   {/* follow emas obuna telegramm kanaliga otadigan qilib qoyish kerak */}
-{/* batafsil degan tugma kerakemas ekan  */}
-{/* ikkiala progress turgan divni ham keraki yoq orniga ishlagan jolari degan sahifa tayyorlang bittasi ishagan joyi ikkinchisi tahsil olgan joyi */}
-   {/* chapdagi web sayt githubni orniga youtobe va github tursin */}
+
+
     <div class="container">
         <div className={style.main_body}>
             <div className={style.gutters_sm} class="row">
@@ -25,8 +22,38 @@ export default class Rahbariyat extends Component {
                         <h4>John Doe</h4>
                         <p class="text-secondary mb-1">Full Stack Developer</p>
                         <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                        <button class="btn btn-primary" style={{marginRight:'5px'}}>Follow</button>
-                        <button class="btn btn-outline-primary" style={{marginLeft:'5px'}}>Message</button>
+                        <button class="btn btn-primary" style={{marginRight:'5px'}}>Obuna</button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-primary" style={{marginLeft:'5px'}}>Xabar</button>
+           
+{/* <!-- Modal --> */}
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="column" id="main">
+          <h2>Xabaar yuborish</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputName">Name</label>
+              <input type="name" class="form-control" id="exampleInputName" placeholder="Name" />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E-mail </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Xabar</label>
+              <textarea type="text" class="form-control" id="exampleInputPassword1" placeholder="Xabar"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Yuborish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                        
+                        
                         </div>
                     </div>
                     </div>
@@ -34,8 +61,8 @@ export default class Rahbariyat extends Component {
                 <div className={style.card} class="mt-3">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                        <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>Website</h6>
-                        <span class="text-secondary">https://bootdey.com</span>
+                        <h6 class="mb-0"><i style={{marginRight: '8px',fontSize:'22px',color:'red'}} class="fab fa-youtube"></i>Youtube</h6>
+                        <span class="text-secondary">https://youtube.com</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                         <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github mr-2 icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</h6>
@@ -104,11 +131,6 @@ export default class Rahbariyat extends Component {
                         </div>
                     </div>
                     <hr />
-                    <div class="row">
-                        <div class="col-sm-12">
-                        <a class="btn btn-info" target="__blank" href="">Batafsil</a>
-                        </div>
-                    </div>
                     </div>
                 </div>
 
@@ -116,54 +138,20 @@ export default class Rahbariyat extends Component {
                     <div className={style.mb_3} class="col-sm-6">
                     <div className={style.card, style.h_100, style.bg_gray_300}>
                         <div className={style.card_body}>
-                        <h6 className={style.mb_3} class="d-flex align-items-center"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                        <small>Web Design</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Website Markup</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '72%'}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>One Page</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '89%'}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Mobile Template</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Backend API</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '66%'}} aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                            <h5>Tahsil olgan joylari</h5>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
                         </div>
                     </div>
                     </div>
                     <div className={style.mb_3} class="col-sm-6">
                     <div className={style.card, style.h_100, style.bg_gray_300}>
                         <div className={style.card_body}>
-                        <h6 className={style.mb_3} class="d-flex align-items-center"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                        <small>Web Design</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Website Markup</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '72%'}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>One Page</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '89%'}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Mobile Template</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <small>Backend API</small>
-                        <div className={style.mb_3} class="progress" style={{height: '5px'}}>
-                            <div class="progress-bar bg-primary" role="progressbar" style={{width: '66%'}} aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                            <h5>Ishlagan joylari</h5>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
+                            <p>lorem ipsum dolor sit <pre>10.05.2017</pre></p>
                         </div>
                     </div>
                     </div>
