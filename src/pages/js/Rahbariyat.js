@@ -10,6 +10,9 @@ export default class Rahbariyat extends Component {
                 <Navbar />
 {/* Messageni bosganda modal ochiib ochilgan moldall ichida form bolsin boglanishnikiga oxshagan emailni kirgizsin tel raqamini kirirtsin va murojat textini yuborsin tagida bitta yuborish knopka bolsa boldi  */}
    {/* follow emas obuna telegramm kanaliga otadigan qilib qoyish kerak */}
+{/* batafsil degan tugma kerakemas ekan  */}
+{/* ikkiala progress turgan divni ham keraki yoq orniga ishlagan jolari degan sahifa tayyorlang bittasi ishagan joyi ikkinchisi tahsil olgan joyi */}
+   {/* chapdagi web sayt githubni orniga youtobe va github tursin */}
     <div class="container">
         <div className={style.main_body}>
             <div className={style.gutters_sm} class="row">
