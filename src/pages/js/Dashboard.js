@@ -20,12 +20,14 @@ export default class Dashboard extends Component {
     return (
       <div>
 
-
-
-
-  
- 
-
+{/* yangiliklar har bittasi uchun har hil yangilik ochisin */}
+{/* Rahbariyatdan 3 ta odam chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
+{/* tumanlardan 3 ta tuman chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
+{/* Makatblardan 3 ta maktab chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
+{/* batafsil degan tugmani bostganda hammasi uchun js fayl tahlangan shularni sahifasiga otib ketsin   */}
+{/* navbardagi linklar yani sahifa nomlar leanding page bop usha turgan joyga yonaltirsin */}
+{/* oxirida sayt rangi yorqinroq ranga ozgartirilsin  */}
+{/* etibor uchun rahmat xurmat bilan Abbas */}
 
 
 
@@ -98,7 +100,7 @@ export default class Dashboard extends Component {
 <div style={{paddingBottom:'10px'}} className={style.yangilik}>
   <h1>Yangiliklar</h1>
    <Accordion style={{marginLeft:'10px', }} defaultActiveKey="0">
-  <Accordion.Item  >
+  <Accordion.Item  eventKey="26">
     <Accordion.Header className={style.accordionheader}>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi </Accordion.Header>
     <Accordion.Body className={style.accordionbody}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -111,7 +113,7 @@ export default class Dashboard extends Component {
         <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item  >
+  <Accordion.Item eventKey="25" >
     <Accordion.Header className={style.accordionheader}>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi </Accordion.Header>
     <Accordion.Body className={style.accordionbody}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -124,7 +126,7 @@ export default class Dashboard extends Component {
       <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item  >
+  <Accordion.Item  eventKey="24">
     <Accordion.Header className={style.accordionheader}>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi </Accordion.Header>
     <Accordion.Body className={style.accordionbody}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -137,7 +139,7 @@ export default class Dashboard extends Component {
       <Link to="/toke1" style={{color:'blue'}}>Batafsil</Link>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item  >
+  <Accordion.Item  eventKey="23">
     <Accordion.Header className={style.accordionheader}>Jizzax xalq hokimiyati yangi tizim ishlab chiqdi </Accordion.Header>
     <Accordion.Body className={style.accordionbody}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
