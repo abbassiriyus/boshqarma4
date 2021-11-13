@@ -19,11 +19,12 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div>
-
+{/* hamma kodlani dashboardga toplash kerak boshqa fayllaga tegmang */}
 {/* yangiliklar har bittasi uchun har hil yangilik ochisin */}
 {/* Rahbariyatdan 3 ta odam chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
 {/* tumanlardan 3 ta tuman chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
 {/* Makatblardan 3 ta maktab chiqib tursin va pastida batafsil degan tugma bolsin vidwolavhalrniki bilan bir hil */}
+{/* boglanish faqat bir joyda homiylardan teppada tursin */}
 {/* batafsil degan tugmani bostganda hammasi uchun js fayl tahlangan shularni sahifasiga otib ketsin   */}
 {/* navbardagi linklar yani sahifa nomlar leanding page bop usha turgan joyga yonaltirsin */}
 {/* oxirida sayt rangi yorqinroq ranga ozgartirilsin  */}
