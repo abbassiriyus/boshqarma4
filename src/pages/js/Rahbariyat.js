@@ -31,14 +31,14 @@ export default class Rahbariyat extends Component {
     <div class="modal-content">
       <div class="modal-body">
         <div class="column" id="main">
-          <h2>Xabaar yuborish</h2>
+          <h2>Xabar yuborish</h2>
           <form>
             <div class="form-group">
               <label for="exampleInputName">Name</label>
               <input type="name" class="form-control" id="exampleInputName" placeholder="Name" />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">E-mail </label>
+              <label for="exampleInputEmail1">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" />
             </div>
             <div class="form-group">
