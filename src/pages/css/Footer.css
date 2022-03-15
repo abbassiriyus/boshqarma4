@@ -85,15 +85,15 @@ ul {
     border-bottom: 1px solid #333;
     color: black;
     display: block;
-    font-size: 13px;
+    font-size: 18px;
     margin-bottom: 5px;
     padding-bottom: 10px;
 }
 .kilimanjaro_links a {
     color: black;
-    font-size: 13px;
+    font-size: 18px;
 }
-top-15 {
+.top-15 {
     margin-top: 15px;
 }
 .foo_top_header_one .kilimanjaro_part > h5 {
@@ -184,7 +184,7 @@ p, ul li, ol li {
     border-bottom: 1px solid #333;
     color: black;
     display: block;
-    font-size: 13px;
+    font-size: 18px;
     margin-bottom: 5px;
     padding-bottom: 10px;
 }

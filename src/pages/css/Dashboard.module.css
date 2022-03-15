@@ -83,6 +83,9 @@ width:165px;
 width: 70%;
 
 }
+.rahbar1{
+    display: none;
+}
 
 .oyna{
     width: 100%;
@@ -117,7 +120,6 @@ width: 70%;
     .asosiy{
         width: 100%;
         height: auto;
-      
         margin-top: 110px;
         display: flex;
     }
@@ -139,11 +141,15 @@ width: 70%;
 
 @media (max-width:991px){
   
- 
+ .rahbar1{
+display: block;
+ }
+ .rahbar2{
+    display: none;
+     }
     .asosiy{
         width: 100%;
-        height: 1400px;
-      
+     
         margin-top: 90px;
         display: block;
     } 
@@ -157,8 +163,7 @@ width: 70%;
     }
   
     .oyna img{
-        margin: auto;
-     
+        margin: auto;     
         width:100%;
         display: flex;
         align-items: center;
@@ -171,16 +176,7 @@ width: 70%;
            font-size: 20px;
           }   
 }
-@media (max-width:850px){
-    .asosiy{
-        width: 100%;
-        height: 1300px;
-      
-        margin-top: 90px;
-        display: block;
-    } 
- 
-}
+
 
 @media (max-width:600px){
     .rahbar{
@@ -194,16 +190,7 @@ width: 70%;
  
 }
 
-@media (max-width:600px)and (min-width:300px){
-    .asosiy{
-        width: 100%;
-        height: 1200px;
-      
-        margin-top: 90px;
-        display: block;
-    } 
- 
-}
+
 
 
 
@@ -246,7 +233,7 @@ height: 550px;
   }
   .yangilik{
     overflow-y:scroll;
-    height: 700px;
+    height: 550px;
 }  
 }
 
@@ -285,6 +272,13 @@ margin-top: 20px;
 color: red;
 font-family: Palatino;
 
+}
+@media(max-width:991px){
+    .cardvideo h3{
+   
+        font-family: Palatino;
+        font-size: 15px;
+        }
 }
 
 
